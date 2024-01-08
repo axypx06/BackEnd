@@ -1,4 +1,4 @@
-#Telegram Bot
+## Telegram Bot
 
 A weather bot for Telegram built with NestJS, ReactJS, Node.js, and MongoDB.
 
@@ -16,7 +16,7 @@ Link to Bot - http://t.me/StormReaperBot
 - On /subscribe, bot will add the user to database and send the current weather and after that every 3 hour bot will send the weather updates.
 - On /unsubscribe, bot will remove the user from the database and it will not send other update from then.
 
-#Admin Panel
+## Admin Panel
 
 - Admin can login to the bot via their Google account.
 - Admin can view all the users and manage them.
