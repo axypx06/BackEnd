@@ -1,5 +1,4 @@
-/* eslint-disable prettier/prettier */
-// database.module.ts
+
 
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
