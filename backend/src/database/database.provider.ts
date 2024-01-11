@@ -1,4 +1,4 @@
-/* eslint-disable prettier/prettier */
+
 import { Provider } from '@nestjs/common';
 import * as mongoose from 'mongoose';
 
@@ -9,7 +9,7 @@ export const databaseProviders: Provider[] = [
       try {
         const uri = process.env.DATABASE_CONNECTION_STRING;
 
-        // Connect to the MongoDB database using Mongoose
+       
         const connection = await mongoose.connect(uri);
 
         return connection;
