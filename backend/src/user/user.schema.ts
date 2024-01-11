@@ -1,5 +1,4 @@
-/* eslint-disable prettier/prettier */
-// user/user.schema.ts
+
 
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document } from 'mongoose';
@@ -11,8 +10,6 @@ export class User extends Document {
 
   @Prop({ required: true })
   username: string;
-
-  // Add any other fields you need
 
   @Prop({ default: Date.now })
   createdAt: Date;
